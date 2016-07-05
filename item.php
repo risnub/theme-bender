@@ -128,9 +128,11 @@
     <div id="useful_info" class="bordered-box">
         <h2><?php _e('Useful information', 'bender'); ?></h2>
         <ul>
-            <li><?php _e('Avoid scams by acting locally or paying with PayPal', 'bender'); ?></li>
-            <li><?php _e('Never pay with Western Union, Moneygram or other anonymous payment services', 'bender'); ?></li>
-            <li><?php _e('Don\'t buy or sell outside of your country. Don\'t accept cashier cheques from outside your country', 'bender'); ?></li>
+            <li><?php _e('Avoid scams by acting locally if possible.', 'bender'); ?></li>
+            <li><?php _e('Beware of Paypal or other online payment scams.', 'bender'); ?></li>
+            <li><?php _e('DOUBLE-CHECK sender\'s email address and hyperlinks.', 'bender'); ?></li>
+            <li><?php _e('NEVER pay with Western Union, Moneygram or other anonymous payment services.', 'bender'); ?></li>
+            <li><?php _e('Be VERY CAREFUL when buying or selling outside of your country. DO NOT accept cashier cheques from outside your country.', 'bender'); ?></li>
             <li><?php _e('This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer "buyer protection" or "seller certification"', 'bender'); ?></li>
         </ul>
     </div>
