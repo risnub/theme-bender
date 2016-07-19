@@ -38,16 +38,16 @@
 
     $location = array();
     if( osc_item_city_area() !== '' ) {
-        $location[] = osc_item_city_area();
+        $location[] = __(osc_item_city_area(), 'DB_Values');
     }
     if( osc_item_city() !== '' ) {
-        $location[] = osc_item_city();
+        $location[] = __(osc_item_city(), 'DB_Values');
     }
     if( osc_item_region() !== '' ) {
-        $location[] = osc_item_region();
+        $location[] = __(osc_item_region(), 'DB_Values');
     }
     if( osc_item_country() !== '' ) {
-        $location[] = osc_item_country();
+        $location[] = __(osc_item_country(), 'DB_Values');
     }
 
     osc_current_web_theme_path('header.php');

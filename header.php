@@ -35,7 +35,7 @@
     <div class="wrapper">
         <div id="logo">
             <?php echo logo_header(); ?>
-            <span id="description"><?php echo osc_page_description(); ?></span>
+            <span id="description"><?php echo __(osc_page_description(), 'DB_Values'); ?></span>
         </div>
         <ul class="nav">
             <?php if( osc_is_static_page() || osc_is_contact_page() ){ ?>
@@ -67,7 +67,7 @@
         <input type="hidden" name="page" value="search"/>
         <div class="main-search">
             <div class="cell">
-                <input type="text" name="sPattern" id="query" class="input-text" value="" placeholder="<?php echo osc_esc_html(__(osc_get_preference('keyword_placeholder', 'bender'), 'bender')); ?>" />
+                <input type="text" name="sPattern" id="query" class="input-text" value="" placeholder="<?php echo osc_esc_html(__(osc_get_preference('keyword_placeholder', 'bender'), 'DB_Values')); ?>" />
             </div>
             <?php  if ( osc_count_categories() ) { ?>
                 <div class="cell selector">

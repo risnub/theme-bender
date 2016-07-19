@@ -162,11 +162,11 @@ FUNCTIONS
     if( !function_exists('logo_header') ) {
         function logo_header() {
              $logo = osc_get_preference('logo','bender');
-             $html = '<a href="'.osc_base_url().'"><img border="0" alt="' . osc_page_title() . '" src="' . bender_logo_url() . '"></a>';
+             $html = '<a href="'.osc_base_url().'"><img border="0" alt="' . __(osc_page_title(), 'DB_Values') . '" src="' . bender_logo_url() . '"></a>';
              if( $logo!='' && file_exists( osc_uploads_path() . $logo ) ) {
                 return $html;
              } else {
-                return '<a href="'.osc_base_url().'">'.osc_page_title().'</a>';
+                return '<a href="'.osc_base_url().'">'.__(osc_page_title(), 'DB_Values').'</a>';
             }
         }
     }
