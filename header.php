@@ -77,7 +77,7 @@
             <?php  } else { ?>
                 <div class="cell">
             <?php  } ?>
-                <button class="ui-button ui-button-big js-submit"><?php _e("Search", 'bender');?></button>
+                <button class="ui-button ui-button-big js-submit" style="word-break:keep-all"><?php _e("Search", 'bender');?></button>
             </div>
         </div>
         <div id="message-seach"></div>
