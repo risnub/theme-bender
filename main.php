@@ -74,7 +74,7 @@
             <h3><strong><?php _e("Location", 'bender') ; ?></strong></h3>
             <ul>
             <?php while(osc_has_list_regions() ) { ?>
-                <li><a href="<?php echo osc_list_region_url(); ?>"><?php echo osc_list_region_name() ; ?> <em>(<?php echo osc_list_region_items() ; ?>)</em></a></li>
+                <li><a href="<?php echo osc_list_region_url(); ?>"><?php echo __(osc_list_region_name(), 'DB_Values') ; ?> <em>(<?php echo osc_list_region_items() ; ?>)</em></a></li>
             <?php } ?>
             </ul>
         </div>
