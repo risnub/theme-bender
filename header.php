@@ -25,6 +25,7 @@
         <?php osc_current_web_theme_path('common/head.php') ; ?>
     </head>
 <body <?php bender_body_class(); ?>>
+<?php osc_run_hook('before-header'); ?>
 <div id="header">
     <!-- header ad 728x60-->
     <div class="ads_header">
